@@ -36,6 +36,10 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ILoveVideo needs access to your photo library to select photos for video creation.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>ILoveVideo needs permission to save photos to your library.</string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
