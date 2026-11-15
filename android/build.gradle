@@ -19,3 +19,12 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+
+// Add arthenica maven repository for ffmpeg-kit
+allprojects {
+  repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://arthenica.github.io/maven/' }
+  }
+}
